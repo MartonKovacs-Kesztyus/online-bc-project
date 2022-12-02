@@ -20,7 +20,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url() no-repeat center center fixed;
+  background: url("assets/Background_flip.jpg");
   background-size: cover;
 }
 
