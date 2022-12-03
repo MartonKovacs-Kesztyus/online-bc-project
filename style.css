@@ -40,8 +40,7 @@ img {
   border-radius: 50%;
   padding: 1px;
   background-color: #666;
-  transition: all 0.5s ease-in-out;
-  filter: grayscale(50%);
+  transition: 
 }
 .profile-image {
   margin-top: -60px;
