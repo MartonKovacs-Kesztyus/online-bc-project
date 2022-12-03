@@ -57,6 +57,30 @@ li {
   display: inline;
 }
 
+.fa-linkedin-square {
+	color: #FFFFFF;
+	transition: 1s;
+}
+.fa-facebook-official {
+	color: #FFFFFF;
+	transition: 1s;
+}
+.fa-github {
+	color: #FFFFFF;
+	transition: 1s;
+}
+
+
+.fa-linkedin-square:hover {
+	color: #2962ff;
+}
+.fa-facebook-official:hover {
+	color: #2962ff;
+}
+.fa-github:hover {
+	color: #000000;
+}
+
 /* Background and style colors */
 
 body {
@@ -76,25 +100,22 @@ img:hover {
 /* Text and link adjustments */
 
 .head, .about {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .content {
-  padding: 5% 10%;
+  padding: 5% 5%;
   border-top: 1px solid hsla(0, 0%, 30%, .8);
 }
-#upper {
-  font-size: 2.5em;
-}
-.about {
-  font-size: 1.2em;
-}
-#from {
+h1 {
   font-size: 1.4em;
 }
-#lower {
-  font-size: 2em;
+h2 {
+	font-size: 1.2em;
 }
-i {
-  color: rgb(90, 90, 90)
+.about {
+  font-size: 1.1em;
+}
+#contact {
+  font-size: 1.6em;
 }
