@@ -1,4 +1,3 @@
-
 /* CSS reset */
 
 * {
@@ -7,69 +6,45 @@
   box-sizing: border-box;
   font-size: 100%;
 }
+/* Font style */
 
-/* Positioning */
+body {
+  font-family: 'Dancing Script', cursive;
+}
+.about {
+	text-align: justify;
+}
+
+/* Pozitioning */
 
 .profile-card {
   width: 480px;
-  max-width: calc(100vw - 10px);
+  max-width: calc(100vw - 20px);
 }
-
 body {
-  height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
-  background: url("assets/Background_flip.jpg") no-repeat;
-  background-size: cover;
+  align-items: center;
+  height: 100vh;
 }
-
 .head, .links {
   text-align: center;
 }
-
 .head, .content {
   width: 90%;
   margin: 0 auto;
 }
-
-.content {
-  border-top: 1px solid hsla(0, 0%, 30%, .8);
-}
-
-.head, .about {
-  margin-bottom: 10%;
-}
-
-.content {
-  padding: 5% 10%;
-}
-
-/* Profile image */
-
-.profile-image {
-  margin-top: -60px;
-}
-
 img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
   padding: 1px;
   background-color: #666;
-  filter: grayscale(50%);
   transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
 }
-
-img:hover {
-  filter: grayscale(20%);
-  transform: scale(1.1);
-}
-
-.profile-card {
-  background-color: hsla(0, 0%, 100%, .5);
-  border-radius: 4px;
-  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+.profile-image {
+  margin-top: -60px;
 }
 
 /* Contact links */
@@ -80,4 +55,46 @@ ul {
 
 li {
   display: inline;
+}
+
+/* Background and style colors */
+
+body {
+  background: url("assets/Background_flip.jpg") no-repeat;
+  background-size: cover;
+}
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+/* Text and link adjustments */
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+#upper {
+  font-size: 2.5em;
+}
+.about {
+  font-size: 1.2em;
+}
+#from {
+  font-size: 1.4em;
+}
+#lower {
+  font-size: 2em;
+}
+i {
+  color: rgb(90, 90, 90)
 }
