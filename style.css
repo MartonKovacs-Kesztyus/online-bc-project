@@ -9,7 +9,7 @@
 /* Font style */
 
 body {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Kaushan Script', cursive;
 }
 .about {
 	text-align: justify;
@@ -88,7 +88,7 @@ body {
   background-size: cover;
 }
 .profile-card {
-  background-color: hsla(0, 0%, 100%, .5);
+  background-color: #94949490;
   border-radius: 4px;
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
 }
@@ -108,14 +108,15 @@ img:hover {
   border-top: 1px solid hsla(0, 0%, 30%, .8);
 }
 h1 {
-  font-size: 1.4em;
+  font-size: 1.7em;
+  font-weight: 900
 }
 h2 {
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 .about {
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 #contact {
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
