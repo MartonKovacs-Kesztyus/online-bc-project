@@ -34,17 +34,14 @@ body {
   width: 90%;
   margin: 0 auto;
 }
-img {
-  width: 120px;
-  height: 120px;
+
+.main-image {
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
-  padding: 1px;
-  background-color: #666;
-  transition: 
+  transition: 2s;
 }
-.profile-image {
-  margin-top: -60px;
-}
+
 
 /* Contact links */
 
@@ -91,10 +88,10 @@ body {
   border-radius: 4px;
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
 }
-img:hover {
-  transform: scale(1.1);
-  filter: grayscale(20%);
+.main-image:hover {
+  transform: scale(1.3);
 }
+
 
 /* Text and link adjustments */
 
