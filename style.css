@@ -35,13 +35,27 @@ body {
   margin: 0 auto;
 }
 
+
 .main-image {
+  position: relative;
+  left: 73px;
+  top: -10px;
   width: 140px;
   height: 140px;
   border-radius: 50%;
   transition: 2s;
+  z-index: 2;
 }
 
+.under-image {
+  position: relative;
+  left: -70px;
+  top: -10px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  z-index: 1;
+}
 
 /* Contact links */
 
@@ -89,7 +103,7 @@ body {
   box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
 }
 .main-image:hover {
-  transform: scale(1.3);
+  opacity: 0;
 }
 
 
